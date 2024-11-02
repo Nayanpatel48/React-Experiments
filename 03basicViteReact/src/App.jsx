@@ -1,4 +1,6 @@
 import {useState} from 'react';
+//useState is the hook which will update UI in multiple places 
+
 import './App.css'
 
 function App() {
