@@ -44,5 +44,4 @@ import PropTypes from 'prop-types'
         </div>
     )
 }
-
 export default Card
