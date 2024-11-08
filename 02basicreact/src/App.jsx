@@ -1,6 +1,7 @@
 import Chai from "./Chai"
 import Greet from "./Greet"
-//here we have to import the `Chai` as well as `Greet` function to use it
+//here we have to import the `Chai` as well as `Greet` function to use it from their respective
+//jsx files 
 
 //here just because we are creating a component using vite it stricty tells us to name the
 //file with .jsx
