@@ -35,6 +35,7 @@ import Github from './components/Github/Github'
 //alternative approach
 const router = createBrowserRouter(
   createRoutesFromElements(
+    // here path spelling matters not convention means upper and lower cases both are equal here
     <Route path="/"  element={<Layout/>}>
       <Route path="/"  element={<Home/>}/>
       <Route path="about"  element={<About/>}/>
