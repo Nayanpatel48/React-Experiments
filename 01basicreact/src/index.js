@@ -2,7 +2,7 @@ import React from 'react';
 //React is our core foundational library
 
 import ReactDOM from 'react-dom';
-//Here `ReactDOM is a implimentation of React on web`` just like ReactNative is a implimentation
+//Here `ReactDOM is a implimentation of React on `web` just like ReactNative is a implimentation
 //of React on App
 
 import App from './App';
