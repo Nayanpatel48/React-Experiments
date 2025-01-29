@@ -30,12 +30,16 @@ const anotherElement = (
 )
 
 const ReatctElement = React.createElement(
-    'p',
+    'a',
     {href : 'https://google.com',
-    target : '_blannk'}
+    target : '_blannk'}, 
+    'click me to visit google'
 )
 
 createRoot(document.getElementById('root'))
 .render(
-    <App/>
+    <>
+    <App />
+    {/* ReatctElement */}
+    </>
 )
