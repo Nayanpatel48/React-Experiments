@@ -1,7 +1,11 @@
 import { useState, useCallback, useEffect, useRef } from "react";
 
 function App() {
+
+  //for tracking length with default value 8, numberAllowed with default false, charAllowed with
+  // default value false we used useState().
   const [length, setLength] = useState(8);
+
   const [numberAllowed, setNumberAllowed] = useState(false);
   const [charAllowed, setCharAllowed] = useState(false);
   const [password, setPassword] = useState("");

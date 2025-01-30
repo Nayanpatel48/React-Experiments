@@ -44,4 +44,5 @@ https://github.com/user-attachments/assets/0352f268-307f-4c18-9914-4cd0bb369841
 
 ## 06PassGen
 
+- For tracking length with default value 8, numberAllowed with default false, charAllowed with default value false, password we have "" as default & we used `useState()`.
 - 
