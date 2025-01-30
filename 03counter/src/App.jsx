@@ -15,6 +15,12 @@ function App() {
   const increaseValue = () =>{
     counter = counter + 1
     setCounter(counter)
+
+    // setCounter(prevCounter => prevCounter+1)
+    // setCounter(prevCounter => prevCounter+1)
+    // setCounter(prevCounter => prevCounter+1)
+    // setCounter(prevCounter => prevCounter+1)
+
     console.log("Value added", Math.random())
     console.log(counter)
   }
