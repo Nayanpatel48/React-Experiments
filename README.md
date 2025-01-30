@@ -1,4 +1,5 @@
 # Learnings:
+# React foundation: Hooks, file structure, [article](https://github.com/acdlite/react-fiber-architecture), props, tailwind. then do projects...
 ## 03counter:
 
 - Learned react hook named `useState()`
@@ -22,4 +23,5 @@ https://github.com/user-attachments/assets/c5f61546-9f53-4bb2-88f2-41ceb5dfc22b
 - video for understanding: [chai aur code](https://youtu.be/MPCVGFvgVEQ?si=1P3xd_db7cMzFfhB)
 - `Diffing of lists is performed using keys. Keys should be "stable, predictable, and unique."`
 
-## 
+## 04TailwindProps
+- 
