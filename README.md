@@ -24,4 +24,9 @@ https://github.com/user-attachments/assets/c5f61546-9f53-4bb2-88f2-41ceb5dfc22b
 - `Diffing of lists is performed using keys. Keys should be "stable, predictable, and unique."`
 
 ## 04TailwindProps
+
+- props usage learned.
+- we can make component which will return some HTML in this example which is `Card`. 
+- The basic usage of `props` is that we can pass values like `variables`, `objects`, `arrays` etc accross
+various components.
 - 
