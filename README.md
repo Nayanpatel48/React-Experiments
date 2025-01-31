@@ -45,4 +45,32 @@ https://github.com/user-attachments/assets/0352f268-307f-4c18-9914-4cd0bb369841
 ## 06PassGen
 
 - For tracking length with default value 8, numberAllowed with default false, charAllowed with default value false, password we have "" as default & we used `useState()`.
-- 
+
+- `useCallback` is a React Hook that lets you cache a function definition between re-renders.
+
+```javaScript 
+const cachedFn = useCallback(fn, dependencies)
+```
+- in above example we can write `normal function` as well as `call back` also.
+
+- Learned `useEffect` is a React Hook that lets you synchronize a component with an external system.
+
+```javaScript
+useEffect(setup, dependencies?)
+```
+- `setup` us a call back & dependencies is the `array`
+- Learned about `useRef` hook.
+- `useRef` is a React Hook that lets you reference a value that’s not needed for rendering.
+
+```javaScript
+const ref = useRef(initialValue)
+```
+- By using a ref, you ensure that:
+
+- ***You can store information between re-renders (unlike regular variables, which reset on every render).***
+- ***Changing it does not trigger a re-render (unlike state variables, which trigger a re-render).***
+- ***The information is local to each copy of your component (unlike the variables outside, which are shared).***
+
+- demo : 
+
+https://github.com/user-attachments/assets/c65a0676-4229-43c6-aa41-d6fcb819a44d
