@@ -74,3 +74,37 @@ const ref = useRef(initialValue)
 - demo : 
 
 https://github.com/user-attachments/assets/c65a0676-4229-43c6-aa41-d6fcb819a44d
+
+## 07CurrancyConverter
+
+- Learned `how to handle API`, `creating custom hook`.
+- Custom hook name is `useCurrencyInfo()`. 
+- New approach for `exporting element`.
+- usage of `useId` hook
+- `useId` is a React Hook for generating unique IDs that can be passed to accessibility attributes.
+
+```javaScript
+const id = useId()
+```
+
+```javaScript
+import { useEffect, useState } from "react";
+
+//hook ready
+function useCurrencyInfo(currency){
+    const [data, setData] = useState({})
+    //API call
+    useEffect(()=>{
+        fetch(`https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/${currency}.json`)
+        .then((res) => res.json())
+        .then((res) => setData(res[currency]))
+        console.log(data)
+    }, [currency])
+    console.log(data)
+    return data
+}
+
+export default useCurrencyInfo;
+```
+
+- 
