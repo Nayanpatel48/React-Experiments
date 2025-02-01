@@ -107,4 +107,7 @@ function useCurrencyInfo(currency){
 export default useCurrencyInfo;
 ```
 
-- 
+- demo :
+
+https://github.com/user-attachments/assets/22f77abd-0e65-4313-9334-4be41724e696
+
