@@ -115,7 +115,9 @@ https://github.com/user-attachments/assets/22f77abd-0e65-4313-9334-4be41724e696
 
 - Learned `react router` learned.
 - `react router` is not part of core react it is third party library.
-
+- we not use `<a>` tag because the entire page gets restart and entire tree of website get 
+ repainted so we use `<link>` tag to avoid that.
+- 
 
 
 - demo:
