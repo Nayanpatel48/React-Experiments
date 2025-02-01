@@ -111,3 +111,13 @@ export default useCurrencyInfo;
 
 https://github.com/user-attachments/assets/22f77abd-0e65-4313-9334-4be41724e696
 
+## 08ProfileProject
+
+- Learned `react router` learned.
+- `react router` is not part of core react it is third party library.
+
+
+
+- demo:
+
+https://github.com/user-attachments/assets/4587d07c-2918-4ed4-bf77-c8fa3135a8d8
